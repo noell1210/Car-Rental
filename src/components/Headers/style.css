@@ -1,0 +1,45 @@
+.headers-container {
+    background-color: #F1F3FF;
+
+}
+
+.headers-text {
+    display: flex;
+    flex-direction: column;
+    width: 568px;
+}
+
+.headers.logo {
+    display: flex;
+    justify-content: spac;
+}
+
+.headers-text h1 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .headers-text p {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .headers {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .headers-text button {
+    color: #FFFFFF;
+    background-color: #5CB85F;
+    width: 200px;
+    height: 50px;
+    border: none;
+  }

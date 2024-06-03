@@ -1,0 +1,43 @@
+.ourservice-container {
+    background-color: #FFFFFF;
+    margin-top: 100px;
+}
+
+.ourservice {
+    max-width: 1027px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ourservice-content {
+    display: flex;
+    flex-direction: column;
+    width: 468px;
+    
+}
+
+.ourservice-content h1 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ourservice-content p {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.checkicon {
+  background-color: #CFD4ED;
+  padding: 2px;
+  border-radius: 50%;
+  color: #0D28A6;
+  margin-right: 16px
+  ;
+}

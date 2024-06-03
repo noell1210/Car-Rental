@@ -1,0 +1,36 @@
+.carousel-text {
+    text-align: center;
+}
+
+.carousel-card {
+    width: 619px;
+    display: flex;
+    background-color:#F1F3FF;
+    height: 270px;
+    align-items: center;
+    gap: 15px;
+    padding: 46px;
+}
+
+.carousel-card 
+
+.carousel-content  {
+    text-align: start;
+}
+
+.carousel-content p:first-child{
+    color: #F9CC00;
+}
+
+.button {
+    border: none;
+    background-color: #FFFFFF;;
+    color: black;
+    
+}
+
+.button-two {
+    border: none;
+    background-color: #FFFFFF;;
+    color: #5CB85F;
+} 
