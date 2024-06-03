@@ -34,3 +34,11 @@
     background-color: #FFFFFF;;
     color: #5CB85F;
 } 
+
+@media screen and (max-width:480px) {
+    .carousel-card{
+      width: 400px;
+      flex-direction: column;
+      height: 400px;
+    }
+}

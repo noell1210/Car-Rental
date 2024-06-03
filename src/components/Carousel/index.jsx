@@ -23,9 +23,22 @@ const CarouselTestimonial = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     variableWidth: true,
+    centerMode: true,
+
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          variableWidth: false,
+          centerMode: false,
+        },
+      },
+    ],
   };
   return (
-    <div id="testimonial" className="carousel-container">
+    <div id="testimonial" className="carousel-container py-3">
       <div className="carousel-text">
         <h1>Testimonial</h1>
         <p>Berbagai review positif dari para pelanggan kami</p>
