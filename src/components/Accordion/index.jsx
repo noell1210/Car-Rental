@@ -6,17 +6,19 @@ import Accordion from "react-bootstrap/Accordion";
 
 const AccordionPage = () => {
   return (
-    <Container className="py-5">
+    <Container id="faq" className="py-5">
       <Row>
-        <Col>
-          <h1>Frequently Asked Question</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <Col md={6}>
+          <h3 className="text-center fw-bold">Frequently Asked Question</h3>
+          <p className="text-center fw-bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
         </Col>
-        <Col>
+        <Col md={6}>
           <Accordion defaultActiveKey="0">
             <Accordion.Item className="my-4 border" eventKey="0">
               <Accordion.Header>
-                Apa saja syarat yang dibutuhkan?
+                <h6 className="fw-bold">Apa saja syarat yang dibutuhkan?</h6>
               </Accordion.Header>
               <Accordion.Body>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -30,7 +32,10 @@ const AccordionPage = () => {
             </Accordion.Item>
             <Accordion.Item className="my-4 border" eventKey="1">
               <Accordion.Header>
-                Berapa hari minimal sewa mobil lepas kunci?
+                <h6 className="fw-bold">
+                  {" "}
+                  Berapa hari minimal sewa mobil lepas kunci?
+                </h6>
               </Accordion.Header>
               <Accordion.Body>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -44,7 +49,9 @@ const AccordionPage = () => {
             </Accordion.Item>
             <Accordion.Item className="my-4 border" eventKey="2">
               <Accordion.Header>
-                Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                <h6 className="fw-bold">
+                  Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                </h6>
               </Accordion.Header>
               <Accordion.Body>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -58,7 +65,7 @@ const AccordionPage = () => {
             </Accordion.Item>
             <Accordion.Item className="my-4 border" eventKey="3">
               <Accordion.Header>
-                Apakah Ada biaya antar-jemput?
+                <h6 className="fw-bold">Apakah Ada biaya antar-jemput?</h6>
               </Accordion.Header>
               <Accordion.Body>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -72,7 +79,7 @@ const AccordionPage = () => {
             </Accordion.Item>
             <Accordion.Item className="my-4 border" eventKey="4">
               <Accordion.Header>
-                Bagaimana jika terjadi kecelakaan?
+                <h6 className="fw-bold"> Bagaimana jika terjadi kecelakaan?</h6>
               </Accordion.Header>
               <Accordion.Body>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

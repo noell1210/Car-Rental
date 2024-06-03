@@ -16,8 +16,8 @@ const CardCar = ({ cars }) => {
       <Row>
         {cars?.map((car) => {
           return (
-            <Col className="mb-3">
-              <Card className="h-100" style={{ width: "18rem" }}>
+            <Col md={3} className="mb-3">
+              <Card className="h-100">
                 <Card.Img variant="top" src={car.image} />
                 <Card.Body className="d-flex flex-column">
                   <Card.Text>{car.name}</Card.Text>

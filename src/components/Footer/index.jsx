@@ -8,46 +8,45 @@ import IconThree from "../../assets/icontwt.png";
 import IconFour from "../../assets/iconmail.png";
 import IconFive from "../../assets/icontwc.png";
 import CarLogo from "../../assets/logo.png";
+import { Image } from "react-bootstrap";
 
 const Footer = () => {
   return (
     <Container>
       <Row>
-        <Col>
-          <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
-          <p>binarcarrental@gmail.com</p>
-          <p>081-233-334-808</p>
+        <Col className="mb-3" md={3}>
+          <p className="fw-bold">
+            Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000
+          </p>
+          <p className="fw-bold">binarcarrental@gmail.com</p>
+          <p className="fw-bold">081-233-334-808</p>
         </Col>
-        <Col>
+        <Col className="mb-3" md={3}>
           <p>Our services</p>
           <p>Why Us</p>
           <p>Testimonial</p>
           <p>FAQ</p>
         </Col>
 
-        <Col>
-          <p>Connect with us</p>
-          <Row>
+        <Col className="mb-3" md={3}>
+          <p className="fw-bold">Connect with us</p>
+          <Row className="gap-1">
             <Col>
-              <img src={IconOne} alt="" />
-            </Col>
-            <Col>
-              <img src={IconTwo} alt="" />
-            </Col>
-            <Col>
-              <img src={IconThree} alt="" />
-            </Col>
-            <Col>
-              <img src={IconFour} alt="" />
-            </Col>
-            <Col>
-              <img src={IconFive} alt="" />
+              <Image className="me-3" src={IconOne} alt="" />
+
+              <Image className="me-3" src={IconTwo} alt="" />
+
+              <Image className="me-3" src={IconThree} alt="" />
+
+              <Image className="me-3" src={IconFour} alt="" />
+
+              <Image className="me-3" src={IconFive} alt="" />
             </Col>
           </Row>
         </Col>
-        <Col>
-          <p>Copyright Binar 2022</p>
-          <img src={CarLogo} width={200} height={200} alt="" />
+        <Col className="mb-3" md={3}>
+          <p className="fw-bold">Copyright Binar 2022</p>
+          <Image src={CarLogo} width={200} height={200} alt="" />
         </Col>
       </Row>
     </Container>

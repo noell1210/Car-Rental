@@ -9,12 +9,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 const WhyUs = () => {
   return (
-    <Container className="py-5">
-      <h1>WhyUs?</h1>
-      <p>Mengapa harus pilih Binar Car Rental?</p>
+    <Container id="whyus" className="py-3">
+      <h1 className="text-center">WhyUs?</h1>
+      <p className="text-center">Mengapa harus pilih Binar Car Rental?</p>
       <Row>
-        <Col>
-          <Card style={{ width: "18rem" }}>
+        <Col className="mb-3" md={3}>
+          <Card className="h-100">
             <Card.Body>
               <img src={LogoOne} alt="" />
               <Card.Title className="py-3">Mobil Lengkap</Card.Title>
@@ -25,8 +25,8 @@ const WhyUs = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card style={{ width: "18rem" }}>
+        <Col className="mb-3" md={3}>
+          <Card className="h-100">
             <Card.Body>
               <img src={LogoTwo} alt="" />
               <Card.Title className="py-3">Harga Murah</Card.Title>
@@ -37,8 +37,8 @@ const WhyUs = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card style={{ width: "18rem" }}>
+        <Col className="mb-3" md={3}>
+          <Card className="h-100">
             <Card.Body>
               <img src={LogoThree} alt="" />
               <Card.Title className="py-3">Layanan 24 Jam</Card.Title>
@@ -49,8 +49,8 @@ const WhyUs = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card style={{ width: "18rem" }}>
+        <Col className="mb-3" md={3}>
+          <Card className="h-100">
             <Card.Body>
               <img src={LogoFour} alt="" />
               <Card.Title className="py-3">Sopir Profesional</Card.Title>
